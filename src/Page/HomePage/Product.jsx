@@ -6,16 +6,16 @@ const Product = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="categories text-center py-5 mg-auto width-50 fit-content bg-primary  ">
+    <div className="categories text-center py-5 mg-auto width-50 fit-content   ">
       <div>
         <h4>CAREFULLY CREATED COLLECTIONS</h4>
         <h2>BROWSE OUR CATEGORIES</h2>
 
-        <div className="row">
+        <div className="row my-4">
           <div className="col-md-6 mr-0">
             <img
               onClick={() => navigate("/shop")}
-              src="/src/assets/product_1.png"
+              src="https://res.cloudinary.com/dqgazbupb/image/upload/v1740574715/product_1_uqbvhu.png"
               alt="iPhone"
               className="img-fluid img-size cursor-pointer "
             />

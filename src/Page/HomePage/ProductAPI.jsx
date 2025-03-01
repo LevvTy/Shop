@@ -23,7 +23,7 @@ const ProductAPI = () => {
 
   const renderProduct = () => {
     return (
-      <div className="row bg-primary p-0">
+      <div className="row  width-50 mg-auto">
         {products.map((product) => (
           <div className="col-md-3 mb-4" key={product?.id}>
             <div className="pb-2">

@@ -83,10 +83,10 @@ body {
   height: 15vw;
 }
 
-h3 {
+/* h3 {
   padding-bottom: 20px;
   color: white;
-}
+} */
 
 .mg-auto {
   margin: 0 auto;
@@ -110,7 +110,7 @@ h3 {
 }
 
 .width-50 {
-  width: 50vw;
+  width: 70vw;
 
 }
 
@@ -136,4 +136,16 @@ h3 {
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.font-size {
+  font-size: medium;
+}
+
+.bg-color {
+  background-color: #f6f9f6;
+}
+
+.align-items {
+  align-items: center;
 }
